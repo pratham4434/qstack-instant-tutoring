@@ -26,6 +26,7 @@ const Features = () => (
     <div className="gpt3__features-heading">
     <br></br>
       <iframe
+      title="youtubevid"
         width="620"
         height="350"
         src="https://www.youtube.com/embed/tgbNymZ7vqY"

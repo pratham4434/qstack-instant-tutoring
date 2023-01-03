@@ -28,13 +28,13 @@ const Header = () => (
       </div>
 
       <div className="gpt3__header-content__people">
-        <img src={people} />
+        <img src={people} alt="" />
         <p>100+ available teachers available 24/7</p>
       </div>
     </div>
 
     <div className="gpt3__header-image">
-      <img src={ai} />
+      <img src={ai} alt="" />
     </div>
   </div>
 );

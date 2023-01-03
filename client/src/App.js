@@ -1,31 +1,25 @@
 import React from "react";
 import "./App.css";
-import {
-  Footer,
-  Blog,
-  Possibility,
-  Features,
-  WhatGPT3,
-  Header,
-} from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import{
+BrowserRouter as Router,
+Switch,
+Route
+} from "react-router-dom";
+import Home from "../src/pages/home/Home";
+import Login from "../src/pages/login/Login";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
-      </div>
-      <Brand />
-      <WhatGPT3 />
-      <Possibility />
-
-      <Features />
-      <CTA />
-      <Blog />
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+           <Home/>
+        </Route>
+        <Route exact path="/login">
+          <Login/>
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

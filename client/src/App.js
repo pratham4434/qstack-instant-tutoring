@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Video from "./components/videochat/Video.jsx"
 import Videochatnav from "./components/videochat/Videochatnav";
+import Discussion from "./components/discussion/Discussion";
 import {
   Footer,
   Blog,
@@ -44,6 +45,7 @@ const App = () => {
       <Blog />
       <Footer /> */}
       <Route path="/video" element={<><Videochatnav/><Video/></>}/>
+      <Route path="/discusssion" element={<><Videochatnav/><Discussion/><Discussion/><Discussion/></>}/>
       </Routes>
     </div>
     </Router>

@@ -1,6 +1,7 @@
 import React from "react";
 import possibilityImage from "../../assets/possibility.png";
 import "./possibility.css";
+import {Link} from "react-router-dom"
 const Possibility = () => (
 
   <div className="gpt3__possibility section__padding" id="possibility">
@@ -32,7 +33,9 @@ const Possibility = () => (
           <option value="C++">C++</option>
           <option value="Python">Python</option>
         </select>
-        <button type="button">Submit</button>
+        <Link to="/discusssion">
+        <button   type="button">Submit</button>
+        </Link>
         </div>
       </div>
     </div>

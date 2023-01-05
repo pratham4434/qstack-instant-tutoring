@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
+import {Link} from "react-router-dom"
 
 const Menu = () => {
   
@@ -50,7 +51,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
+      <Link to="/login">
+      <p>Sign in</p>
+      </Link>
+        
         <button type="button"> Sign up</button>
       </div>
       <div className="gpt3__navbar-menu">

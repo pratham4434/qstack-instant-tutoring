@@ -83,11 +83,17 @@ color: black;
 .discussion_techoption_input{
     border-radius: 0.25rem;
     appearance: none;
-    border-color: gray;
     padding-top: 0.5rem; /* 8px */
-    padding-bottom: 0.5rem;
-    padding-left: 0.75rem;
-    padding-right: 2.5rem; 
+padding-bottom: 0.5rem; /* 8px */
+padding-left: 0.75rem; /* 12px */
+padding-right: 2.5rem; /* 40px */
+font-size: 1rem; /* 16px */
+line-height: 1.5rem; /* 24px */
+background-color: rgb(152, 66, 214);
+
+}
+.discussion_techoption_input:hover{
+    background-color: rgb(105, 22, 184);
 }
 .discussion_tech2{
     position: absolute;

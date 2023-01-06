@@ -1,14 +1,16 @@
 .gpt3__possibility {
   display: flex;
   flex-direction: row;
+  height: 100%;
 }
+
 
 .gpt3__possibility-image {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
+ 
   margin-right: 2rem;
 }
 
@@ -21,8 +23,10 @@
   flex: 1;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items:flex-end;
   flex-direction: column;
+  height: auto;
+  min-height: 100vh;
 }
 
 .gpt3__possibility-content h4 {

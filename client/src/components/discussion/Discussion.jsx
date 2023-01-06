@@ -17,7 +17,7 @@ const Discussion = () => {
             <span className="discussion_techtitle">Tech Stack</span>
             <div className="discussion_techoption">
             <h2 className="discussion_techoption_input">
-                Java
+                Javascript
               </h2>
              
             </div>
